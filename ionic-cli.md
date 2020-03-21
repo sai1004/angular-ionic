@@ -3,6 +3,8 @@
     npm install cordova -g
 
     ionic start projectName blank
+    
+    ionic start projectName blank --v2
 
     ionic generate
 
