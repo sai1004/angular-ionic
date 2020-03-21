@@ -1,17 +1,17 @@
-npm install ionic -g
+    npm install ionic -g
 
-npm install cordova -g
+    npm install cordova -g
 
-ionic start projectName blank
+    ionic start projectName blank
 
-ionic generate
+    ionic generate
 
-ionic generate component
+    ionic generate component
 
-ionic generate page MyPage
+    ionic generate page MyPage
 
-ionic generate tabs
+    ionic generate tabs
 
-ionic generate pipe MyPipe
+    ionic generate pipe MyPipe
 
-ionic generate provider
+    ionic generate provider
