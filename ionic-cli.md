@@ -15,3 +15,8 @@
     ionic generate pipe MyPipe
 
     ionic generate provider
+
+    ionic info
+    
+    ionic docs
+    
