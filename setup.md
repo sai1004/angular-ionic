@@ -1,3 +1,7 @@
+cd /opt/android-studio/bin
+
+./studio.sh
+
 npm install ionic -g
 
 ionic -v
