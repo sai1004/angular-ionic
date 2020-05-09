@@ -16,9 +16,20 @@
 
     ionic generate pipe MyPipe
 
-    ionic generate provider
+    ionic generate provider auth
 
     ionic info
     
     ionic docs
+    
+    ionic cordova platform add android
+    
+    ionic cordova platform rm android
+    
+    ionic cordova plugin add <plugin-name>
+    
+    ionic cordova plugin list
+    
+    
+    
     
