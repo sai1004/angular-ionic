@@ -1,3 +1,7 @@
+const MAX_FILE_SIZE = 5 * 1024 * 1024;
+const ALLOWED_MIME_TYPE = "video/mp4";
+
+
 
   recordVideo(teamId:any, over:any, ball:any) {
 
