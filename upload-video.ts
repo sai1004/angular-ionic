@@ -65,7 +65,7 @@
       mimeType: ALLOWED_MIME_TYPE
     }
 
-    fileTransfer.upload(videoData, this.global.sportApiUrl+'app/media/saveVideo?clubId='+this.global.curClubId+'&auth_token='+this.global.authToken+'&teamId='+teamId+'&matchId='+this.matchId+'&ballNum='+ball+'&overNum='+over+'&videoExtension=mp4', options)
+    fileTransfer.upload(videoData,  url , options)
       .then((data) => {
         // console.log(data);
         this.isVideoUploading = false;
@@ -134,7 +134,7 @@
     //         mimeType: "video/mp4"
     //       }
 
-    //       fileTransfer.upload(data[0].fullPath, this.global.sportApiUrl+'app/media/saveVideo?clubId='+this.global.curClubId+'&auth_token='+this.global.authToken+'&teamId='+teamId+'&matchId='+this.matchId+'&ballNum='+ball+'&overNum='+over+'&videoExtension=mp4', options)
+    //       fileTransfer.upload(data[0].fullPath,  url, options)
     //         .then((data) => {
     //           console.log(data);
     //           this.global.showToast('Video Saved Succesfully');
