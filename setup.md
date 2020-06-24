@@ -4,26 +4,32 @@ requirements:
   1.nodejs
   2.angular
   3.java
-  4.android-studio
-  5.cordova 
-  6.gradle
-  7.ionic
+  4.JAVA-JDK
+  5.android-studio
+  6.cordova 
+  7.gradle
+  8.ionic
   
   
   
   On Windows:
   
   
-  On Linux:
+# On Linux:
   
   
-      
-    export ANDROID_SDK=/home/user/Android/sdk
+User specific environment VARAIBLES
 
-    export PATH=$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$PATH
-    
-    
- https://www.tecmint.com/set-path-variable-linux-permanently/
+    export JAVA_HOME=/usr/java/jdk1.8.0_251-amd64/
+
+    export ANDROID_HOME=/home/fullstack/Android/Sdk
+
+    export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
+
+    export PATH=$PATH:/opt/gradle/gradle-6.5/bin
+
+      
+https://www.tecmint.com/set-path-variable-linux-permanently/
 
 https://askubuntu.com/questions/58814/how-do-i-add-environment-variables
 
@@ -47,8 +53,6 @@ http://www.automationtestinghub.com/setup-android-environment-variables/
       cordova -v
 
       ionic start projectName blank
-      
-      
       
   
   
